@@ -80,7 +80,7 @@
     letter-spacing: 2px;
 }
 
-.fourRectangles {
+.rectanglesInARow {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -88,10 +88,11 @@
     height: fit-content;
 }
 
-.fourRectangles1Rectangle {
+.rectanglesInARow1Rectangle {
     display: flex;
     flex-direction: column;
-    background-color: white;    
+    background-color: white;
+    height: fit-content;   
 }
 
 .shadow {
@@ -100,7 +101,8 @@
 
 .ourServicesPage4RectanglesFirstRow {
     align-items: center;
-    height: 274px;
+    /* height: 274px; */
+    height:fit-content;
     width: 270px;
 }
 
@@ -111,7 +113,7 @@
 }
 
 .ourServicesPage4Rectangles1RectangleSecondP {
-    height: 45px;
+    height: fit-content;
     width: 208px;
 }
 
@@ -188,7 +190,7 @@
 .photo {
     /* max-width: 100%; */
     width: 100%;
-    max-height: 100%;
+    /* max-height: 100%; */
 }
 
 .photosYellowRectangle {
@@ -212,16 +214,17 @@
     position: absolute;
     /* top: -150%;
     left: 5%; */
-    top: 261%;
+    top: 263%;
     left: 35%;
     height: 120px;
-    width: 180px;
+    width: 200px;
     background-color: white;
     /* z-index: 2; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: column ;
+    flex-direction: column;
+    text-align: center;
     z-index: 3;
 }
 
@@ -262,42 +265,65 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    height:fit-content
 }
 
 .johnDoe {
     width: 100%;
     max-height: fit-content;
-    padding-top:5%;
-    padding-bottom:5%;
-    opacity: 0.5;
+    padding: 5% 0%;
+    opacity: 0.6;
     background-color: #FDE500;
     position: relative;
-    top: -16%;
+    bottom: 45px;
     text-align: center;
 }
 
 .johnDoeText {
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 0%;
     position: relative;
-    top: -10%;
+    bottom: 20px;
 }
 
 .blackOnWhitePage {
-    display: flex;
-    justify-content: center;
-    height: 100px;
+    /* display: flex;
+    justify-content: space-around;
+    align-content: space-evenly;
+    align-items: flex-start;
+    height: fit-content; */
+    padding-top: 60px;
+    margin-left: 0%;
 }
+
+.blackOnWhiteWidth {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    width: 1200px;
+    margin: 0;
+}
+
+/* .rectanglesInARow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: fit-content;
+} */
 
 .blackRectangle {
     width: 30%;
-    height: 200%;
+    height: fit-content;
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 }
 
 .whiteRectangle {
@@ -311,4 +337,66 @@
 .whiteRectangleSignature {
     text-align: right;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 280px;
+}
+
+.rectangleInFooterRow {
+    height: 230px;
+    display:flex;
+    color: white;
+    width: 30%;
+}
+
+.rectanglesInARowLeftRectangleInFooter { /*             */
+    flex-direction: column;
+}
+
+.bigWhiteSign {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rectanglesInARowMiddleRectangleInFooter { /*             */
+    justify-content: space-evenly;
+}
+
+.rectanglesInARowMiddleRectangleInFooterOneColumn {
+    display: flex;
+    line-height: 2rem;
+    width: 50%;
+    flex-direction: column;
+}
+
+.rectanglesInARowRightRectangleInFooter { /*             */
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.buttonInFooter {
+    border-radius: 1.625rem;
+    width: 300px;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icon {
+    margin: 5px;
 }
