@@ -1,0 +1,301 @@
+.page {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+    background-image: url("Assets/Header.jpeg");
+}
+
+.headerP1 {
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1rem;
+}
+
+.headerP2 {
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    letter-spacing: .3rem;
+}
+
+.yellowButton {
+    background-color: #FDE500;
+    height: fit-content;
+    width: fit-content;
+    letter-spacing: .3rem;
+    padding: 5% 40px;
+}
+
+.smallWhiteSign {
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+.secondPage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-content: space-evenly;  */
+    height: 600px;
+}
+
+.secondPageP {
+    height: 99px;
+    width: 636px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.ourServicesPage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    height: 929px;
+}
+
+.ourServicesPageP1 {
+    letter-spacing: 0.4rem;
+}
+
+.ourServicesPageP2 {
+    height: 66px;
+    width: 764px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.fourRectangles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: fit-content;
+}
+
+.fourRectangles1Rectangle {
+    display: flex;
+    flex-direction: column;
+    background-color: white;    
+}
+
+.shadow {
+    box-shadow: 0px 0px 2px 2px #F0F0F0;
+}
+
+.ourServicesPage4RectanglesFirstRow {
+    align-items: center;
+    height: 274px;
+    width: 270px;
+}
+
+.ourServicesPage4Rectangles1RectangleFirstP {
+    height: 45px;
+    width: 210px;
+    text-align: center;
+}
+
+.ourServicesPage4Rectangles1RectangleSecondP {
+    height: 45px;
+    width: 208px;
+}
+
+.ourServicesPage4RectanglesSecondRow {
+    align-items: flex-start;
+    height: 166px;
+    width: 270px;
+}
+
+.ourServicesPage4RectanglesSecondRowP {
+    margin-block-start: unset;
+    margin-block-end: unset;
+}
+
+.grayRectangle {
+    position: relative;
+}
+
+.yellowRectangle {
+    position: relative;
+    bottom: 18px;
+}
+
+.blackPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 241px;
+    background-color: black;
+}
+
+/* .blackPage4Rectangles {
+    align-items: center;
+    height: 71px;
+    width: 270px;
+} */
+
+.blackPage4Rectangles1RectangleP {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70px;
+    width: 280px;
+    text-align: center;
+}
+
+.ourPortfolioPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.twoBlackLines {
+    width: 400px;
+    height: 50px;
+    border-top: 1px solid black;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photos {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.photo {
+    /* max-width: 100%; */
+    width: 100%;
+    max-height: 100%;
+}
+
+.photosYellowRectangle {
+    position: relative;
+    top: -85%;
+    left: 12%;
+    height: 70%;
+    width: 75%;
+    background-color: #FDE500;
+    /* z-index: 2; */
+}
+
+.photosWhiteRectangle {
+    position: relative;
+    top: -150%;
+    left: 5%;
+    height: 60%;
+    width: 90%;
+    background-color: white;
+    /* z-index: 2; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column ;
+}
+
+.whiteRectangleFirstP {
+    letter-spacing: 0.3rem;
+}
+
+/* .whiteRectangleSecondP {
+    width: 80%;
+    height: 80%;
+} */
+
+.likeWhatYouSeePage {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.viewOurVideoPage {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Assets/ViewOurVideo.jpeg");
+}
+
+.viewOurVideoButton {
+    font-size: 1.5rem;
+}
+
+.ourTeamPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.johnDoe {
+    width: 100%;
+    max-height: fit-content;
+    padding-top:5%;
+    padding-bottom:5%;
+    opacity: 0.5;
+    background-color: #FDE500;
+    position: relative;
+    top: -16%;
+    text-align: center;
+}
+
+.johnDoeText {
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+    top: -10%;
+}
+
+.blackOnWhitePage {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.blackRectangle {
+    width: 30%;
+    height: 200%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteRectangle {
+    width: 30%;
+}
+
+.whiteRectangleText {
+    text-align: center;
+}
+
+.whiteRectangleSignature {
+    text-align: right;
+    font-weight: bold;
+}
