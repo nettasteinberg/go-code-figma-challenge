@@ -198,31 +198,44 @@
     height: 70%;
     width: 75%;
     background-color: #FDE500;
-    /* z-index: 2; */
 }
 
+/* .photosYellowRectangle {
+    position: static;
+    height: 70%;
+    width: 75%;
+    background-color: #FDE500;
+    z-index: 2;
+} */
+
 .photosWhiteRectangle {
-    position: relative;
-    top: -150%;
-    left: 5%;
-    height: 60%;
-    width: 90%;
+    position: absolute;
+    /* top: -150%;
+    left: 5%; */
+    top: 261%;
+    left: 35%;
+    height: 120px;
+    width: 180px;
     background-color: white;
     /* z-index: 2; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column ;
+    z-index: 3;
 }
 
 .whiteRectangleFirstP {
     letter-spacing: 0.3rem;
 }
 
-/* .whiteRectangleSecondP {
+.whiteRectangleSecondP {
     width: 80%;
     height: 80%;
-} */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .likeWhatYouSeePage {
     height: 200px;
