@@ -305,17 +305,94 @@ body {
     bottom: 20px;
 }
 
-.blackOnWhitePage {
-    /* display: flex;
+.complicated {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.white {
+    background-color: white;
+    width: 100%;
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow {
+    background-color: #FDE500;
+    width: 100%;
+    height: 215px;
+}
+
+.firstWhiteRectangle {
+    position: relative;
+    left: 18rem;
+}
+
+.secondWhiteRectangle {
+    position: relative;
+    right: 19rem;
+}
+
+.textLeftImageRight {
+    display: flex;
+    justify-content: center;
+    height: 0px;
+}
+
+.textAndImage {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blackTextAndBlackAndWhiteImage {
+    width: 550px;
+    height: 340px;
+}
+
+.blackText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+    background-color: black;
+    min-height: 242px;
+    position: relative;
+    bottom: 660px
+}
+
+.blackText > p {
+    width: 80%;
+    height: 80%;
+    line-height: 1.7rem;
+    padding-bottom: 2rem;
+
+}
+
+.blackAndWhiteImage {
+    min-height: 242px;
+    background-image: url(Assets/blackAndWhiteKid.jpeg);
+    background-size: cover;
+    position: relative;
+    bottom: 400px;
+}
+
+/* .blackOnWhitePage {
+    display: flex;
     justify-content: space-around;
     align-content: space-evenly;
     align-items: flex-start;
-    height: fit-content; */
+    height: fit-content;
     padding-top: 60px;
     margin-left: 0%;
-}
+} */
 
-.blackOnWhiteWidth {
+/* .blackOnWhiteWidth {
     display: flex;
     justify-content: space-around;
     align-content: space-evenly;
@@ -323,7 +400,7 @@ body {
     height: fit-content;
     width: 1200px;
     margin: 0;
-}
+} */
 
 /* .rectanglesInARow {
     display: flex;
@@ -333,7 +410,7 @@ body {
     height: fit-content;
 } */
 
-.blackRectangle {
+/* .blackRectangle {
     width: 30%;
     height: fit-content;
     background-color: black;
@@ -343,7 +420,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 30px;
-}
+} */
 
 .whiteRectangle {
     width: 30%;
@@ -351,11 +428,14 @@ body {
 
 .whiteRectangleText {
     text-align: center;
+    line-height: 2rem;
 }
 
 .whiteRectangleSignature {
     text-align: right;
     font-weight: bold;
+        line-height: 2rem;
+
 }
 
 .footer {
